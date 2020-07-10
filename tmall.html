@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/tmall.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 导航开始 -->
+    <div class="nav">
+        <div class="container">
+            <div class="nav-left">
+                <em>喵，欢迎来天猫</em>
+                <a href="#">请登录</a>
+                <a href="#">免费注册</a>
+            </div>
+            <ul class="nav-right">
+                <li class="nav-right-item">
+                    <a href="#">我的淘宝</a>
+                </li>
+                <li class="nav-right-item">
+                    <img src="./imgs/shoppingcar.png" alt="">
+                    <a href="#">购物车</a>
+                </li>
+                <li class="nav-right-item">
+                    <a href="#">收藏夹</a>
+                </li>
+                <li class="nav-right-item">
+                    <img src="./imgs/phone.png" alt="">
+                    <a href="#">手机版</a>
+
+                </li>
+                <li class="nav-right-item">
+                    <a href="淘宝网">商家支持</a>
+
+                </li>
+                <li class="nav-right-item ">
+                    <img src="./imgs/nav.png" alt="">
+                    <a href="">网站导航</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <!-- 导航结束 -->
+    <!-- 头部开始 -->
+    <div class="header">
+        <div class="header-search">
+            <form action="" class="search">
+                <fieldset>
+                    <legend>天猫搜索</legend>
+                    <div class="search-input">
+                        <label for="" style="visibility: visible;display: none;">搜索 天猫 商品/品牌/店铺</label>
+                        <div class="s-combbox">
+                            <div class="s-combbox-input-wrap">
+                                <input type="text" class="s-combbox-input" title="请输入搜索文字" aria-label="请输入搜索文字">
+                            </div>
+                            <label for="" class="s-combbox-placeholder" style="color: rgba(102, 102, 102);visibility: visible;">搜索 天猫 商品/品牌/店铺</label>
+                        </div>
+                        <button type="submit">搜索
+                            <s></s>
+                        </button>
+                        <input type="hidden" id="J_Type">
+                        <input type="hidden" id="J_MallSearchStyle">
+                        <input type="hidden" id="J_Cat">
+                        <input type="hidden">
+                        <!-- <input type="text"> -->
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- 头部结束 -->
+        <!--主体开始 -->
+        <div id="content">
+            <div class="main-nav">
+                <div class="inner-con0">
+                    <div class="inner-con1">
+                        <div class="inner-con2 clearfix">
+                            <a href="#" class="img1">
+                                <img src="./imgs/content1.png" alt="">
+                                <div class="hover-pic"></div>
+                            </a>
+                            <a href="#" class="img1">
+                                <img src="./imgs/content2.png" alt="">
+                                <div class="hover-pic"></div>
+                            </a>
+                            <a href="#">天猫会员</a>
+                            <a href="#">电器城</a>
+                            <a href="#">喵生鲜</a>
+                            <a href="#">医药馆</a>
+                            <a href="#">营业厅</a>
+                            <a href="#">魅力汇</a>
+                            <a href="#">飞猪旅行</a>
+                            <a href="#">苏宁易购</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="j_category category-con">
+                <div class="category-inner-con   j_categoryInnerCon j_categoryTab">
+                    <div class="j_logo logo-con">
+                        <img src="./imgs/tmall-logo-img.png" class="tmall-logo-img" style="margin: 1px auto;display: none;" width="240px" height="130px" alt="">
+                        <div class="doodle-con j_doodleCon">
+                            <a href="#" class="j_doodleLink" style="display: block;height: 100%;width: 100%;">
+                                <img src="./imgs/j_doodle.gif" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="category-type">
+                        <i class="fp-iconfont">口</i>
+                        <div class="text">商品分类</div>
+                    </div>
+                    <div class="category-tab-content">
+                        <div class="nav-con j_tabPannel category-tab-pannel pannel-normal">
+                            <ul class="normal-nav clearfix">
+                                <li class="j_MenuNav nav-item nav-item-0 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">女装</a> /
+                                    <a href="#">内衣</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-0 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">女装</a> /
+                                    <a href="#">内衣</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-1 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">男装</a> /
+                                    <a href="#">运动户外</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-2 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">女鞋</a> /
+                                    <a href="#">男鞋</a>/
+                                    <a href="#">箱包</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-3 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">美妆</a> /
+                                    <a href="#">个人护理</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-4 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">腕表</a> /
+                                    <a href="#">眼镜</a>/
+                                    <a href="#">珠宝首饰</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-5 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">手机</a> /
+                                    <a href="#">数码</a>/
+                                    <a href="#">电脑办公</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-6 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">母婴玩具</a> /
+
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-7 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">零食</a> /
+                                    <a href="#">茶水/</a>/
+                                    <a href="#">进口食品</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-8 ">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">生鲜水果</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-9 ">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">大家电</a> /
+                                    <a href="#">生活电器</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-10 ">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">家具建材</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-11 ">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">汽车</a> /
+                                    <a href="#">配件</a>/
+                                    <a href="#">用品</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-12">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">家纺</a> /
+                                    <a href="#">家饰</a>/
+                                    <a href="#">鲜花</a>
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-13 ">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">医药保健</a>
+
+                                    <b class="arrow"></b>
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-14 ">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">厨具</a> /
+                                    <a href="#">收纳</a>/
+                                    <a href="#">宠物</a>
+                                    <b class="arrow"></b>
+
+                                </li>
+                                <li class="j_MenuNav nav-item nav-item-15 category-loaded">
+                                    <i class="fp-iconfont nav-item-icon icon"></i>
+                                    <i class="dot fp-iconfont"> </i>
+                                    <a href="#">图书影像</a>
+                                    <b class="arrow"></b>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-con j_categoryContent">
+                        <div class="pannel-con j_CategoryMenuPannel" style="display: none;">
+                            <div class="pannel-0">
+                                <div class="hot-word-con">
+                                    <div class="hot-word-line">
+                                        <div class="line-title">
+                                            <div class="title-text">当季流行</div>
+                                            <i class="fp-iconfont"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 主体结束 -->
+</body>
+
+</html>
